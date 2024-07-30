@@ -1,0 +1,182 @@
+.more-trash-talk {
+    background: #F3F9EC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.more-trash-talk .container-4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1600px;
+    height: auto;
+    opacity: 0.76;
+}
+
+.more-trash-talk .group-27 {
+    position: relative;
+    margin: 20px 0;
+    width: 188px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.more-trash-talk .green, .more-trash-talk .horizons {
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    display: block;
+}
+
+.more-trash-talk .green {
+    color: #75BE18;
+}
+
+.more-trash-talk .horizons {
+    color: #DDA15E;
+}
+
+.more-trash-talk .image-34,
+.more-trash-talk .image-46,
+.more-trash-talk .image-47,
+.more-trash-talk .image-48,
+.more-trash-talk .image-49,
+.more-trash-talk .image-33,
+.more-trash-talk .image-481,
+.more-trash-talk .image-35,
+.more-trash-talk .image-482,
+.more-trash-talk .image-491,
+.more-trash-talk .image-50 {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.more-trash-talk .image-34 {
+    background-image: url('../assets/images/image_47.png');
+    position: absolute;
+    top: 0;
+    right: 144.7px;
+    width: 182.2px;
+    height: 136.9px;
+    transform: rotate(-164.993deg);
+}
+
+.more-trash-talk .container-8,
+.more-trash-talk .container-3,
+.more-trash-talk .container-1,
+.more-trash-talk .container-2,
+.more-trash-talk .container-14,
+.more-trash-talk .container-15 {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.more-trash-talk .trash-talk {
+    position: absolute;
+    top: 141px;
+    right: 104.2px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    color: #272936;
+}
+
+.more-trash-talk .confronting-environmental-pollution-through-responsible-disposal {
+    margin: 0 0 71.7px 54.2px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #272936;
+    text-align: center;
+}
+
+.more-trash-talk .addressing-plastic-pollution-in-oceans-and-landfill-impacts,
+.more-trash-talk .promote-sustainable-consumption-and-responsible-disposal,
+.more-trash-talk .advocating-for-acleaner-planet-through-waste-awareness {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: #272936;
+    margin: 10px 0;
+}
+
+.more-trash-talk .green-horizon,
+.more-trash-talk .mission,
+.more-trash-talk .goals,
+.more-trash-talk .focus {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #272936;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.more-trash-talk .frame-1,
+.more-trash-talk .frame-2,
+.more-trash-talk .frame-4,
+.more-trash-talk .frame-5,
+.more-trash-talk .frame-6,
+.more-trash-talk .frame-7,
+.more-trash-talk .frame-8,
+.more-trash-talk .frame-9,
+.more-trash-talk .frame-10,
+.more-trash-talk .frame-11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-trash-talk .container-7,
+.more-trash-talk .container-8,
+.more-trash-talk .container-14,
+.more-trash-talk .container-15,
+.more-trash-talk .container-16,
+.more-trash-talk .container-19,
+.more-trash-talk .container-22,
+.more-trash-talk .container-25,
+.more-trash-talk .container-26,
+.more-trash-talk .container-27,
+.more-trash-talk .container-28 {
+    display: flex;
+    flex-direction: row;
+}
+
+.more-trash-talk .group-32,
+.more-trash-talk .group-33,
+.more-trash-talk .group-34,
+.more-trash-talk .group-39,
+.more-trash-talk .group-40,
+.more-trash-talk .group-41 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-trash-talk .mask-group,
+.more-trash-talk .mask-group-1,
+.more-trash-talk .arrow-1,
+.more-trash-talk .arrow-2 {
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.more-trash-talk .group-33 {
+    margin-top: 20px;
+}
+
+.more-trash-talk .arrow-1,
+.more-trash-talk .arrow-2 {
+    margin: 10px 0;
+}
