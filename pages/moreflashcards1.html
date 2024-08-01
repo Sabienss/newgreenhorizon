@@ -7,7 +7,7 @@
       onload="this.rel='stylesheet'"
       href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
     />
-    <title>Home Page</title>
+    <title>Flash Cards</title>
     <link rel="icon" type="image/png" href="../assets\images\pngtree-go-green-illustration-icon-image_64510.jpg" />
 
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
@@ -16,6 +16,7 @@
     <div class="relative flex size-full min-h-screen flex-col bg-[#F3F9EC] group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
       <div class="layout-container flex h-full grow flex-col">
         <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#F4EFE6] px-10 py-3">
+
           <div class="flex items-center gap-4 text-[#1C160C]">
             <div class="size-4">
               <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,86 +43,104 @@
                 <a class="text-[#1C160C] text-sm font-medium leading-normal" href="game.html">Eco-Game</a>
             </div>
             <button
-              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#019863] text-[#FFFFFF] text-sm font-bold leading-normal tracking-[0.015em]"
-            >
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#019863] text-[#FFFFFF] text-sm font-bold leading-normal tracking-[0.015em]">
               <span class="truncate">Donate</span>
             </button>
             <div
-              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
-              style='background-image: url("https://cdn.usegalileo.ai/sdxl10/0b1b4a17-0458-4e3e-88e6-10d08bd23301.png");'
-            ></div>
-          </div>
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+            style='background-image: url("https://cdn.usegalileo.ai/sdxl10/0b1b4a17-0458-4e3e-88e6-10d08bd23301.png");'
+          ></div>
+        </div>
         </header>
         <div class="px-40 flex flex-1 justify-center py-5">
           <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
-            <div class="@container">
-              <div class="flex flex-col gap-6 px-4 py-10 @[480px]:gap-8 @[864px]:flex-row">
+            <h1 class="text-[#1C160C] tracking-light text-[32px] font-bold leading-tight px-4 text-left pb-3 pt-6">Flash Cards: Environmental Impact Essentials</h1>
+            <div class="p-4 @container">
+              <div class="flex flex-col items-stretch justify-start rounded-xl @xl:flex-row @xl:items-start shadow-[0_0_4px_rgba(0,0,0,0.1)] bg-[#FFFFFF]"
+              style="background-image: url('../assets/images/image_111.png'); background-size: cover; background-position: center;">
+              
                 <div
-                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl @[480px]:h-auto @[480px]:min-w-[400px] @[864px]:w-full"
-                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/5a747c28-ec4c-4f1b-8818-64e8a14da082.png");'
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("../assets/images/image_8.png");'
                 ></div>
-                <div class="flex flex-col gap-6 @[480px]:min-w-[400px] @[480px]:gap-8 @[864px]:justify-center">
-                  <div class="flex flex-col gap-2 text-left">
-                    <h1
-                      class="text-[#1C160C] text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
-                    >
-                      Welcome to Green Horizon!
-                    </h1>
-                    <h2 class="text-[#1C160C] text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
-                      Join us in advocating for responsible consumption and conservation to safeguard our planet's health and biodiversity.
-                    </h2>
+                <div class="flex w-full min-w-72 grow flex-col items-stretch justify-center gap-1 py-4 @xl:px-4 px-4">
+                  <p class="text-[#1C160C] text-lg font-bold leading-tight tracking-[-0.015em]">Polluting Our Waterways</p>
+                  <div class="flex items-end gap-3 justify-between">
+                    <p class="text-[#A18249] text-base font-normal leading-normal">
+                      Polluted water threatens ecosystems, harms wildlife, and jeopardizes public health. Efforts to reduce industrial runoff and promote responsible waste disposal
+                      are crucial for safeguarding our water resources. Let's take action to preserve clean water for future generations.
+                    </p>
                   </div>
-                  <a
-                  href="moretrashtalk.html"
-                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#019863] text-[#FFFFFF] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
-                >
-                  <span class="truncate">Read More</span>
-                </a>
-                
                 </div>
               </div>
             </div>
-            <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
-              <div class="flex items-stretch p-4 gap-3">
-                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-                  <div
-                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
-                    style='background-image: url("https://cdn.usegalileo.ai/sdxl10/78090716-10a0-4f03-ad0b-769959b8e1e6.png");'
-                  ></div>
-                  <p class="text-[#1C160C] text-base font-medium leading-normal">Clean Park</p>
-                </div>
-                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-                  <div
-                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
-                    style='background-image: url("https://cdn.usegalileo.ai/stability/dc6a88b4-e24d-4d11-98e9-663d3174160f.png");'
-                  ></div>
-                  <p class="text-[#1C160C] text-base font-medium leading-normal">Lush Forest</p>
-                </div>
-                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-                  <div
-                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
-                    style='background-image: url("https://cdn.usegalileo.ai/stability/f861c7dd-9e0e-4589-8e90-5526001f0b04.png");'
-                  ></div>
-                  <p class="text-[#1C160C] text-base font-medium leading-normal">Renewable Energy</p>
-                </div>
-                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-                  <div
-                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
-                    style='background-image: url("https://cdn.usegalileo.ai/sdxl10/27298742-0582-47e1-9079-6bf7ade3ecd7.png");'
-                  ></div>
-                  <p class="text-[#1C160C] text-base font-medium leading-normal">Community Recycling</p>
-                </div>
-                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-                  <div
-                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
-                    style='background-image: url("https://cdn.usegalileo.ai/stability/641cce17-c05b-44d3-87f2-eb1a801d266e.png");'
-                  ></div>
-                  <p class="text-[#1C160C] text-base font-medium leading-normal">Tree Planting</p>
+            <div class="p-4 @container">
+              <div class="flex flex-col items-stretch justify-start rounded-xl @xl:flex-row @xl:items-start shadow-[0_0_4px_rgba(0,0,0,0.1)] bg-[#FFFFFF]"
+              style="background-image: url('../assets/images/image_111.png'); background-size: cover; background-position: center;">
+              
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("../assets/images/39812696.png");'
+                ></div>
+                <div class="flex w-full min-w-72 grow flex-col items-stretch justify-center gap-1 py-4 @xl:px-4 px-4">
+                  <p class="text-[#1C160C] text-lg font-bold leading-tight tracking-[-0.015em]">Waterways: Solution</p>
+                  <div class="flex items-end gap-3 justify-between">
+                    <p class="text-[#A18249] text-base font-normal leading-normal">
+                      Implementing stricter regulations on industrial, promoting sustainable agriculture to reduce runoff, and investing in efficient waste treatment technologies.
+                      Active participation in local cleanups is a step towards ensuring a healthier environment.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+        <div class="p-4 @container">
+          <div class="flex flex-col items-stretch justify-start rounded-xl @xl:flex-row @xl:items-start shadow-[0_0_4px_rgba(0,0,0,0.1)] bg-[#FFFFFF]"
+          style="background-image: url('../assets/images/image_111.png'); background-size: cover; background-position: center;">
+          
+            <div
+              class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+              style='background-image: url("../assets/images/23182205.png");'
+            ></div>
+            <div class="flex w-full min-w-72 grow flex-col items-stretch justify-center gap-1 py-4 @xl:px-4 px-4">
+              <p class="text-[#1C160C] text-lg font-bold leading-tight tracking-[-0.015em]">Keeping Communities Clean:The Role of Garbage Trucks</p>
+              <div class="flex items-end gap-3 justify-between">
+                <p class="text-[#A18249] text-base font-normal leading-normal">
+                  Garbage trucks efficiently collect and dispose of waste, crucial for maintaining a clean environment and preventing pollution.
+                  Proper waste management through garbage trucks helps safeguard public health and preserves natural landscapes for future generations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="px-40 flex flex-1 justify-center py-5">
+      <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+    <div class="p-4 @container">
+      <div class="flex flex-col items-stretch justify-start rounded-xl @xl:flex-row @xl:items-start shadow-[0_0_4px_rgba(0,0,0,0.1)] bg-[#FFFFFF]"
+      style="background-image: url('../assets/images/image_111.png'); background-size: cover; background-position: center;">
+      
+        <div
+          class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+          style='background-image: url("../assets/images/40231734\ 1.png");'
+        ></div>
+        <div class="flex w-full min-w-72 grow flex-col items-stretch justify-center gap-1 py-4 @xl:px-4 px-4">
+          <p class="text-[#1C160C] text-lg font-bold leading-tight tracking-[-0.015em]">Revitalizing Nature:Cleaning and Reforestation Efforts</p>
+          <div class="flex items-end gap-3 justify-between">
+            <p class="text-[#A18249] text-base font-normal leading-normal">
+              Cleaning polluted water bodies and reforesting are crucial to mitigate environmental degradation. These actions enhance water quality,
+              stabilize soil erosion, and foster biodiversity, benefiting communities reliant on clean water and healthy habitats.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
         <footer class="flex justify-center">
           <div class="flex max-w-[960px] flex-1 flex-col">
             <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
@@ -158,7 +177,7 @@
                   </div>
                 </a>
               </div>
-              <p class="text-[#A18249] text-base font-normal leading-normal">© 2024 Green Horizons. All Rights Reserved.</p>
+              <p class="text-[#A18249] text-base font-normal leading-normal">© 2024 Green Horizons. All rights reserved.</p>
             </footer>
           </div>
         </footer>

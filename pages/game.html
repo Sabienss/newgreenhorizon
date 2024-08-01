@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+  <link
+    rel="stylesheet"
+    as="style"
+    onload="this.rel='stylesheet'"
+    href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+  />
+  <title>H</title>
+  <link rel="icon" type="image/png" href="../assets/images/pngtree-go-green-illustration-icon-image_64510.jpg" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <style>
+    .correct {
+      background-color: #22c55e !important; /* Green color */
+    }
+    .incorrect {
+      background-color: #ef4444 !important; /* Red color */
+    }
+    .default {
+      background-color: #f97316 !important; /* Orange color */
+    }
+    .carousel {
+  position: relative;
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+  margin: 0 auto;
+  overflow: hidden; /* Hide overflow to only show one image at a time */
+}
+
+.carousel-images {
+  display: flex;
+  transition: transform 2s ease-in-out; /* Smooth transition */
+  width: 300%; /* 100% * number of images (3 images) */
+  transform: translateX(0); /* Start at the first image */
+}
+
+.carousel-images img {
+  width: 33.333%; /* Each image takes 100% of the carousel's width */
+  height: 20rem; /* Increase height if needed */
+  object-fit: cover; /* Ensures the image covers the div without distortion */
+  border-radius: 0.75rem; /* Optional: for rounded corners */
+}
+
+ .btn-answer {
+      background-color: #f97316; /* Default orange color */
+    }
+  </style>
+</head>
+<body>
+  <div class="relative flex size-full min-h-screen flex-col bg-[#F3F9EC] group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+    <div class="layout-container flex h-full grow flex-col">
+      <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#F4EFE6] px-10 py-3">
+        <div class="flex items-center gap-4 text-[#1C160C]">
+          <div class="size-4">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M24 45.8096C19.6865 45.8096 15.4698 44.5305 11.8832 42.134C8.29667 39.7376 5.50128 36.3314 3.85056 32.3462C2.19985 28.361 1.76794 23.9758 2.60947 19.7452C3.451 15.5145 5.52816 11.6284 8.57829 8.5783C11.6284 5.52817 15.5145 3.45101 19.7452 2.60948C23.9758 1.76795 28.361 2.19986 32.3462 3.85057C36.3314 5.50129 39.7376 8.29668 42.134 11.8833C44.5305 15.4698 45.8096 19.6865 45.8096 24L24 24L24 45.8096Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </div>
+          <h2 class="text-[#1C160C] text-lg font-bold leading-tight tracking-[-0.015em]">Eco Challenge</h2>
+        </div>
+        <div class="flex flex-1 justify-end gap-8">
+          <div class="flex items-center gap-9">
+            <a class="text-[#1C160C] text-sm font-medium leading-normal" href="homepage.html">Home</a>
+            <a class="text-[#1C160C] text-sm font-medium leading-normal" href="moretrashtalk.html">About Us</a>
+            <a class="text-[#1C160C] text-sm font-medium leading-normal" href="moreflashcards1.html">Flash Cards </a>
+            <a class="text-[#1C160C] text-sm font-medium leading-normal" href="game.html">Eco-Game</a>
+          </div>
+          <button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#019863] text-[#FFFFFF] text-sm font-bold leading-normal tracking-[0.015em]">
+            <span class="truncate">Donate</span>
+          </button>
+          <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://cdn.usegalileo.ai/sdxl10/0b1b4a17-0458-4e3e-88e6-10d08bd23301.png");'></div>
+        </div>
+      </header>
+      <div class="px-40 flex flex-1 justify-center py-5">
+        <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+          <h1 class="text-[#1C160C] tracking-light text-[32px] font-bold leading-tight px-4 text-center pb-3 pt-6">3 R's: Reduce, Reuse, Recycle</h1>
+          <div class="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-3 p-4">
+            <div class="flex flex-col gap-3 items-center">
+              <div class="carousel">
+                <div class="carousel-images">
+                  <img src="https://cdn.usegalileo.ai/sdxl10/91f4477a-141b-4b44-80c1-a8cdd2e14b1d.png" alt="Image 1">
+                  <img src="../assets/images/clothes.png" alt="Image 2">
+                  <img src="../assets/images/box.png" alt="Image 3">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center mt-6">
+            <div class="flex flex-wrap gap-3 px-4 py-3 max-w-[480px] justify-center">
+              <button class="btn-answer flex min-w-[84px] max-w-[480px] items-center justify-center rounded-full h-12 px-5 default text-white text-base font-bold tracking-[0.015em]">REDUCE</button>
+              <button class="btn-answer flex min-w-[84px] max-w-[480px] items-center justify-center rounded-full h-12 px-5 default text-white text-base font-bold tracking-[0.015em]">REUSE</button>
+              <button class="btn-answer flex min-w-[84px] max-w-[480px] items-center justify-center rounded-full h-12 px-5 default text-white text-base font-bold tracking-[0.015em]">RECYCLE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="flex justify-center mt-6">
+        <div class="max-w-[960px] flex-1 flex flex-col">
+          <p class="text-[#A18249] text-sm font-normal text-center pb-3 pt-1">Eco Game</p>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script>
+ document.addEventListener('DOMContentLoaded', () => {
+  const carouselImages = document.querySelector('.carousel-images');
+  const buttons = document.querySelectorAll('.btn-answer');
+  let currentIndex = 0;
+  const images = carouselImages.children.length;
+  let canChangeImage = true; // Flag to control image changes
+
+  // Correct answers for each image
+  const correctAnswers = {
+    0: 'REDUCE',
+    1: 'REUSE',
+    2: 'RECYCLE'
+  };
+
+  // Function to show the next image
+  const showNextImage = () => {
+    if (canChangeImage && currentIndex < images - 1) {
+      canChangeImage = false; // Prevent further changes until transition ends
+      currentIndex += 1;
+      console.log(`Moving to image index: ${currentIndex}`); // Debugging
+
+      // Disable transition for immediate move, force reflow, then re-enable transition
+      carouselImages.style.transition = 'none'; // Disable transition
+      carouselImages.style.transform = `translateX(-${currentIndex * 33.333}%)`;
+      carouselImages.offsetHeight; // Force reflow
+
+      // Re-enable transition
+      carouselImages.style.transition = 'transform 2s ease-in-out';
+
+      // Reset button colors
+      resetButtons();
+
+      // Set timeout to allow image change after transition
+      setTimeout(() => {
+        canChangeImage = true;
+      }, 2000); // Match this duration with CSS transition duration (2 seconds)
+    }
+  };
+
+  // Function to reset button colors
+  const resetButtons = () => {
+    buttons.forEach(btn => {
+      btn.classList.remove('correct', 'incorrect');
+      btn.classList.add('default');
+    });
+  };
+
+  // Button Click Event for Correct/Incorrect Answer
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      // Get the correct answer for the current image
+      const correctAnswer = correctAnswers[currentIndex];
+      console.log(`Current answer: ${correctAnswer}`); // Debugging
+      console.log(`Clicked button: ${button.innerText.trim()}`); // Debugging
+
+      // Check if the clicked button's text matches the correct answer
+      if (button.innerText.trim() === correctAnswer) {
+        button.classList.add('correct');
+        button.classList.remove('default', 'incorrect');
+        setTimeout(() => {
+          showNextImage();
+        }, 500); // Delay to show button color change before moving to next image
+      } else {
+        button.classList.add('incorrect');
+        button.classList.remove('default', 'correct');
+      }
+    });
+  });
+});
+
+
+  </script>
+</body>
+</html>

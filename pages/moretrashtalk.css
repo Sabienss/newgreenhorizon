@@ -1,182 +1,183 @@
-.more-trash-talk {
-    background: #F3F9EC;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-    box-sizing: border-box;
-}
-
-.more-trash-talk .container-4 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 1600px;
-    height: auto;
-    opacity: 0.76;
-}
-
 .more-trash-talk .group-27 {
-    position: relative;
-    margin: 20px 0;
-    width: 188px;
-    box-sizing: border-box;
-    text-align: center;
+  position: relative;
+  margin: 114px auto; /* Center the element */
+  padding-bottom: 16.5px;
+  width: 188px;
+  box-sizing: border-box;
 }
 
 .more-trash-talk .green, .more-trash-talk .horizons {
-    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: 'Luckiest Guy', cursive;
-    font-weight: 400;
-    font-size: 24px;
-    display: block;
+  box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow-wrap: break-word;
+  font-family: 'Luckiest Guy';
+  font-weight: 400;
+  font-size: 24px;
 }
 
 .more-trash-talk .green {
-    color: #75BE18;
+  color: #75BE18;
+  margin-left: 10px; /* Add left margin to create space from the edge */
+  text-align: left; /* Align text to the left */
 }
 
 .more-trash-talk .horizons {
-    color: #DDA15E;
+  color: #DDA15E;
+  position: relative; /* Use relative instead of absolute for consistent positioning */
+  margin-left: 10px; /* Add left margin to create space from the edge */
+  text-align: left; /* Align text to the left */
 }
-
-.more-trash-talk .image-34,
-.more-trash-talk .image-46,
-.more-trash-talk .image-47,
-.more-trash-talk .image-48,
-.more-trash-talk .image-49,
-.more-trash-talk .image-33,
-.more-trash-talk .image-481,
-.more-trash-talk .image-35,
-.more-trash-talk .image-482,
-.more-trash-talk .image-491,
-.more-trash-talk .image-50 {
-    background-size: cover;
-    background-repeat: no-repeat;
+.more-trash-talk .image-34, .more-trash-talk .image-47, .more-trash-talk .image-46, .more-trash-talk .image-48, .more-trash-talk .image-49 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../assets/images/image_47.png');
+  position: relative;
 }
 
 .more-trash-talk .image-34 {
-    background-image: url('../assets/images/image_47.png');
-    position: absolute;
-    top: 0;
-    right: 144.7px;
-    width: 182.2px;
-    height: 136.9px;
-    transform: rotate(-164.993deg);
+  transform: rotate(-164.993deg);
+  top: 0;
+  right: 144.7px;
+  width: 182.2px;
+  height: 136.9px;
 }
 
-.more-trash-talk .container-8,
-.more-trash-talk .container-3,
-.more-trash-talk .container-1,
-.more-trash-talk .container-2,
-.more-trash-talk .container-14,
-.more-trash-talk .container-15 {
-    background-size: cover;
-    background-repeat: no-repeat;
+.more-trash-talk .vector-9, .more-trash-talk .vector-13 {
+  position: absolute;
+}
+
+.more-trash-talk .vector-9 {
+  transform: rotate(3.502deg);
+  left: 221.4px;
+  top: 16.7px;
+  width: 76.1px;
+  height: 56.1px;
+}
+
+.more-trash-talk .vector-13 {
+  transform: rotate(16.097deg);
+  left: 25.5px;
+  bottom: 206.2px;
+  width: 75.6px;
+  height: 42.6px;
+}
+
+.more-trash-talk .container {
+  margin: 0 auto; /* Center the container */
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
 }
 
 .more-trash-talk .trash-talk {
-    position: absolute;
-    top: 141px;
-    right: 104.2px;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 700;
-    font-size: 96px;
-    color: #272936;
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 96px;
+  color: #272936;
+  margin-top: 141px;
+  text-align: right; /* Right-align text */
 }
 
 .more-trash-talk .confronting-environmental-pollution-through-responsible-disposal {
-    margin: 0 0 71.7px 54.2px;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
-    font-size: 36px;
-    color: #272936;
-    text-align: center;
+  margin: 0 0 71.7px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Nunito';
+  font-weight: 600;
+  font-size: 36px;
+  color: #272936;
+  text-align: center;
 }
 
-.more-trash-talk .addressing-plastic-pollution-in-oceans-and-landfill-impacts,
-.more-trash-talk .promote-sustainable-consumption-and-responsible-disposal,
-.more-trash-talk .advocating-for-acleaner-planet-through-waste-awareness {
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 500;
-    font-size: 32px;
-    color: #272936;
-    margin: 10px 0;
+.more-trash-talk .image-29, .more-trash-talk .image-26 {
+  border-radius: 25px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.more-trash-talk .green-horizon,
-.more-trash-talk .mission,
-.more-trash-talk .goals,
-.more-trash-talk .focus {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    color: #272936;
-    margin: 20px 0;
-    text-align: center;
+.more-trash-talk .image-29 {
+  background-image: url('../assets/images/image_26.png');
+  width: 298px;
+  height: 339px;
 }
 
-.more-trash-talk .frame-1,
-.more-trash-talk .frame-2,
-.more-trash-talk .frame-4,
-.more-trash-talk .frame-5,
-.more-trash-talk .frame-6,
-.more-trash-talk .frame-7,
-.more-trash-talk .frame-8,
-.more-trash-talk .frame-9,
-.more-trash-talk .frame-10,
-.more-trash-talk .frame-11 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.more-trash-talk .frame-7 {
+  position: relative;
+  display: flex;
+  width: 298px;
+  height: 766px;
+  box-sizing: border-box;
 }
 
-.more-trash-talk .container-7,
-.more-trash-talk .container-8,
-.more-trash-talk .container-14,
-.more-trash-talk .container-15,
-.more-trash-talk .container-16,
-.more-trash-talk .container-19,
-.more-trash-talk .container-22,
-.more-trash-talk .container-25,
-.more-trash-talk .container-26,
-.more-trash-talk .container-27,
-.more-trash-talk .container-28 {
-    display: flex;
-    flex-direction: row;
+.more-trash-talk .image-26 {
+  background-image: url('../assets/images/image_26.png');
+  width: 298px;
+  height: 339px;
 }
 
-.more-trash-talk .group-32,
-.more-trash-talk .group-33,
-.more-trash-talk .group-34,
-.more-trash-talk .group-39,
-.more-trash-talk .group-40,
-.more-trash-talk .group-41 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.more-trash-talk .frame-10 {
+  position: relative;
+  display: flex;
+  width: 298px;
+  height: 774px;
+  box-sizing: border-box;
 }
 
-.more-trash-talk .mask-group,
-.more-trash-talk .mask-group-1,
-.more-trash-talk .arrow-1,
-.more-trash-talk .arrow-2 {
-    display: block;
-    width: auto;
-    height: auto;
+.more-trash-talk .group-39, .more-trash-talk .group-40 {
+  border-radius: 25px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
 }
 
-.more-trash-talk .group-33 {
-    margin-top: 20px;
+.more-trash-talk .group-39 {
+  margin-right: 147.7px;
+  padding: 31px 19.1px 0 0;
+  width: 311.6px;
+  height: 772.2px;
 }
 
-.more-trash-talk .arrow-1,
-.more-trash-talk .arrow-2 {
-    margin: 10px 0;
+.more-trash-talk .group-40 {
+  padding: 33px 19.1px 0 0;
+  width: 311.6px;
+  height: 768.2px;
+}
+
+.more-trash-talk .container-3, .more-trash-talk .container-4 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.more-trash-talk .container-3 {
+  background-image: url('../assets/images/image_11.png');
+  position: absolute;
+  right: 43.4px;
+  bottom: 0;
+  width: 261.3px;
+  height: 227.7px;
+}
+
+.more-trash-talk .container-4 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 1600px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+.more-trash-talk {
+  background: #F3F9EC;
+  display: flex;
+  padding-bottom: 32.8px;
+  width: 1440px;
+  box-sizing: border-box;
 }

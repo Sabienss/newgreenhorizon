@@ -1,0 +1,156 @@
+.more-flash-card-1 {
+  background: #CEEFEF;
+  padding: 29px 29px 17px 29px;
+  width: 1481px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.more-flash-card-1 .polluting-our-waterways-polluted-water-threatens-ecosystems-harms-wildlife-and-jeopardizes-public-health-efforts-to-reduce-industrial-runoff-and-promote-responsible-waste-disposal-are-crucial-for-safeguarding-our-water-resources-lets-take-action-to-preserve-clean-water-for-future-generations {
+  margin-left: 1.1px;
+  overflow-wrap: break-word;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #272936;
+}
+
+.polluting-our-waterways-polluted-water-threatens-ecosystems-harms-wildlife-and-jeopardizes-public-health-efforts-to-reduce-industrial-runoff-and-promote-responsible-waste-disposal-are-crucial-for-safeguarding-our-water-resources-lets-take-action-to-preserve-clean-water-for-future-generations-sub5 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 1.333;
+}
+
+.more-flash-card-1 .rectangle-4 {
+  border-radius: 29px;
+  background: #F3F9EC;
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+  width: 519.5px;
+  height: 593px;
+}
+
+.more-flash-card-1 .polluting-our-waterways-solution {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: #272936;
+}
+
+.more-flash-card-1 .we-must-focus-on-implementing-stricter-regulations-on-industrial-waste-disposal-promoting-sustainable-agricultural-practices-to-reduce-runoff-and-investing-in-advanced-water-treatment-technologies-community-education-and-participation-in-local-cleanup-efforts-are-vital-steps-towards-ensuring-cleaner-waterways-for-all {
+  position: absolute;
+  left: 42.5px;
+  bottom: 139.5px;
+  overflow-wrap: break-word;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #272936;
+}
+
+.more-flash-card-1 .group-1 {
+  opacity: 0.7;
+  transform: rotate(9.68deg);
+  position: relative;
+  display: flex;
+  padding: 333.3px 51.4px 306.7px 0;
+  width: 520.5px;
+  box-sizing: border-box;
+}
+
+.more-flash-card-1 .group-2 {
+  border-radius: 29px;
+  border: 1px solid #272936;
+  background: #F3F9EC;
+  position: absolute;
+  left: 420px;
+  bottom: 38px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 25.5px 54.6px 31.7px;
+  height: 629px;
+  box-sizing: border-box;
+}
+
+.flash-cards-environmental-impact-essentials {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.333;
+}
+
+.more-flash-card-1 .flash-cards-environmental-impact-essentials {
+  overflow-wrap: break-word;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  color: #272936;
+}
+
+.more-flash-card-1 .image-8 {
+  background: url('../assets/images/image_111.png') 50% / cover no-repeat;
+  position: absolute;
+  top: -9px;
+  right: -34px;
+  width: 1515px;
+  height: 753px;
+}
+
+.more-flash-card-1 .group-28 {
+  position: relative;
+  margin-bottom: 99.5px;
+  align-self: flex-start;
+  padding-bottom: 16.5px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.more-flash-card-1 .green {
+  box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Luckiest Guy', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #75BE18;
+}
+
+.more-flash-card-1 .horizons {
+  box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  transform: translateX(-50%);
+  overflow-wrap: break-word;
+  font-family: 'Luckiest Guy', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #DDA15E;
+}
+
+.more-flash-card-1 .container {
+  background: url('../assets/images/image_8.jpeg');
+  margin: 0 7.2px 19.8px 0;
+  width: 487px;
+  height: 254.4px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.more-flash-card-1 .container-1 {
+  background: url('../assets/images/image_6.jpeg');
+  position: absolute;
+  top: 48.6px;
+  right: 60.4px;
+  width: 433.8px;
+  height: 270.4px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
