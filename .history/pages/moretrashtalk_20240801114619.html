@@ -7,14 +7,12 @@
       onload="this.rel='stylesheet'"
       href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
     />
-    <title>Home Page</title>
+    <title>About Us</title>
     <link rel="icon" type="image/png" href="../assets\images\pngtree-go-green-illustration-icon-image_64510.jpg" />
-    
- 
-
 
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   </head>
+
   <body>
     <div class="relative flex size-full min-h-screen flex-col bg-[#F3F9EC] group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
       <div class="layout-container flex h-full grow flex-col">
@@ -35,20 +33,21 @@
                 </defs>
               </svg>
             </div>
-            <h2 class="text-[#1C160C] text-lg font-bold leading-tight tracking-[-0.015em]">Green Horizons</h2>
+          <h2 class="text-[#1C160C] text-lg font-bold leading-tight tracking-[-0.015em]">Green Horizon </h2>
           </div>
           <div class="flex flex-1 justify-end gap-8">
             <div class="flex items-center gap-9">
-              <a class="text-[#1C160C] text-sm font-medium leading-normal" href="#">Home</a>
-              <a class="text-[#1C160C] text-sm font-medium leading-normal" href="./pages/moretrashtalk.html">About Us</a>
-              <a class="text-[#1C160C] text-sm font-medium leading-normal" href="./pages/moreflashcards1.html">Flash Cards </a>
-                <a class="text-[#1C160C] text-sm font-medium leading-normal" href="./pages/game.html">Eco-Game</a>
+              <a class="text-[#1C160C] text-sm font-medium leading-normal" href="homepage.html">Home</a>
+              <a class="text-[#1C160C] text-sm font-medium leading-normal" href="moretrashtalk.html">About Us</a>
+              <a class="text-[#1C160C] text-sm font-medium leading-normal" href="moreflashcards1.html">Flash Cards </a>
+              <a class="text-[#1C160C] text-sm font-medium leading-normal" href="game.html">Eco-Game</a>
             </div>
             <button
               class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#019863] text-[#FFFFFF] text-sm font-bold leading-normal tracking-[0.015em]"
             >
               <span class="truncate">Donate</span>
             </button>
+            
             <div
               class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
               style='background-image: url("https://cdn.usegalileo.ai/sdxl10/0b1b4a17-0458-4e3e-88e6-10d08bd23301.png");'
@@ -58,69 +57,74 @@
         <div class="px-40 flex flex-1 justify-center py-5">
           <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
             <div class="@container">
-              <div class="flex flex-col gap-6 px-4 py-10 @[480px]:gap-8 @[864px]:flex-row">
+              <div class="@[480px]:px-4 @[480px]:py-3">
                 <div
-                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl @[480px]:h-auto @[480px]:min-w-[400px] @[864px]:w-full"
-                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/5a747c28-ec4c-4f1b-8818-64e8a14da082.png");'
+                  class="w-full bg-center bg-no-repeat bg-cover flex flex-col justify-end overflow-hidden bg-[#FFFFFF] @[480px]:rounded-xl min-h-80"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/1458312e-5985-4baf-9693-c18ee977ec8c.png");'
                 ></div>
-                <div class="flex flex-col gap-6 @[480px]:min-w-[400px] @[480px]:gap-8 @[864px]:justify-center">
-                  <div class="flex flex-col gap-2 text-left">
-                    <h1
-                      class="text-[#1C160C] text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
-                    >
-                      Welcome to Green Horizon!
-                    </h1>
-                    <h2 class="text-[#1C160C] text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
-                      Join us in advocating for responsible consumption and conservation to safeguard our planet's health and biodiversity.
-                    </h2>
-                  </div>
-                  <a
-                  href="../pages/moretrashtalk.html"
-                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#019863] text-[#FFFFFF] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
-                >
-                  <span class="truncate">Read More</span>
-                </a>
-                
+              </div>
+            </div>
+            <h1 class="text-[#1C160C] tracking-light text-[32px] font-bold leading-tight px-4 text-center pb-3 pt-6">About Us</h1>
+            <p class="text-[#1C160C] text-base font-normal leading-normal text-center pb-3 pt-1 px-4">Green Horizon is a comprehensive platform dedicated to raising environmental awareness. It explores the impacts of human activities on the Earth, 
+          highlighting critical issues like pollution and climate change.It also offers practical solutions and actionable steps to promote sustainability and protect our planet for future generations.</p>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/b477860e-e799-4f9d-9ddf-1a1eec5842cd.png");'
+                ></div>
+                <div>
+                  <p class="text-[#1C160C] text-base font-medium leading-normal">Green Horizon</p>
+                  <p class="text-[#A18249] text-sm font-normal leading-normal">Advocating for a cleaner planet through waste awareness.</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/2b2b0ed0-5661-4f0b-afa8-79ce362886b5.png");'
+                ></div>
+                <div>
+                  <p class="text-[#1C160C] text-base font-medium leading-normal">Focus</p>
+                  <p class="text-[#A18249] text-sm font-normal leading-normal">Addressing plastic pollution in oceans and landfill impacts.</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/e8c09f83-6df0-43b4-822d-fcd213f3c803.png");'
+                ></div>
+                <div>
+                  <p class="text-[#1C160C] text-base font-medium leading-normal">Mission</p>
+                  <p class="text-[#A18249] text-sm font-normal leading-normal">Promote sustainable consumption and responsible disposal.</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/0043b031-1fec-4a18-bfbb-3fd80863d9e2.png");'
+                ></div>
+                <div>
+                  <p class="text-[#1C160C] text-base font-medium leading-normal">Goals</p>
+                  <p class="text-[#A18249] text-sm font-normal leading-normal">Protect and preserve natural resources for future generations.</p>
                 </div>
               </div>
             </div>
-            <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
-              <div class="flex items-stretch p-4 gap-3">
-                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-                  <div
-                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
-                    style='background-image: url("https://cdn.usegalileo.ai/sdxl10/78090716-10a0-4f03-ad0b-769959b8e1e6.png");'
-                  ></div>
-                  <p class="text-[#1C160C] text-base font-medium leading-normal">Clean Park</p>
-                </div>
-                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-                  <div
-                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
-                    style='background-image: url("https://cdn.usegalileo.ai/stability/dc6a88b4-e24d-4d11-98e9-663d3174160f.png");'
-                  ></div>
-                  <p class="text-[#1C160C] text-base font-medium leading-normal">Lush Forest</p>
-                </div>
-                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-                  <div
-                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
-                    style='background-image: url("https://cdn.usegalileo.ai/stability/f861c7dd-9e0e-4589-8e90-5526001f0b04.png");'
-                  ></div>
-                  <p class="text-[#1C160C] text-base font-medium leading-normal">Renewable Energy</p>
-                </div>
-                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-                  <div
-                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
-                    style='background-image: url("https://cdn.usegalileo.ai/sdxl10/27298742-0582-47e1-9079-6bf7ade3ecd7.png");'
-                  ></div>
-                  <p class="text-[#1C160C] text-base font-medium leading-normal">Community Recycling</p>
-                </div>
-                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-                  <div
-                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
-                    style='background-image: url("https://cdn.usegalileo.ai/stability/641cce17-c05b-44d3-87f2-eb1a801d266e.png");'
-                  ></div>
-                  <p class="text-[#1C160C] text-base font-medium leading-normal">Tree Planting</p>
-                </div>
+            <h1 class="text-[#1C160C] tracking-light text-[32px] font-bold leading-tight px-4 text-center pb-3 pt-6">Trash Talk</h1>
+            <p class="text-[#1C160C] text-base font-normal leading-normal text-center pb-3 pt-1 px-4">Confronting Environmental Pollution Through Responsible Disposal</p>
+            <div class="flex w-full grow bg-[#F3F9EC] @container p-4">
+              <div class="w-full gap-1 overflow-hidden bg-[#] @[480px]:gap-2 aspect-[3/2] rounded-xl grid grid-cols-[2fr_1fr_1fr]">
+                <div
+                  class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none row-span-2"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/4beb6e79-02f1-4ff2-877a-b941a56e6060.png");'
+                ></div>
+                <div
+                  class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none col-span-2"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/ed7f8d0d-326c-4704-a354-63b7f642f9f0.png");'
+                ></div>
+                <div
+                  class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none col-span-2"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/e539e242-32bd-42c5-bf3d-bd3c969e4f84.png");'
+                ></div>
               </div>
             </div>
           </div>
@@ -161,7 +165,7 @@
                   </div>
                 </a>
               </div>
-              <p class="text-[#A18249] text-base font-normal leading-normal">© 2024 Green Horizons. All Rights Reserved.</p>
+              <p class="text-[#A18249] text-base font-normal leading-normal">© 2024 Green Horizon. All Rights Reserved.</p>
             </footer>
           </div>
         </footer>
